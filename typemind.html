@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Two-Column Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.4/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+  <header class="bg-blue-500 py-4">
+    <h1 class="text-center text-white text-2xl font-bold">Daily Planner</h1>
+
+  </header>
+
+
+
+  <div class="flex flex-col sm:flex-row">
+    <!-- Left Column -->
+    <div class="bg-gray-200 p-4 w-1/2">
+      <div>
+        <div class="mb-4">
+          <label for="note1" class="text-sm font-bold">Note 1:</label>
+          <input type="text" id="note1"
+            class="w-full px-3 mt-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500">
+        </div>
+        <div class="mb-4">
+          <label for="note1" class="text-sm font-bold">Note 1:</label>
+          <input type="text" id="note1"
+            class="w-full px-3 mt-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500">
+        </div>
+        <div class="mb-4">
+          <label for="note1" class="text-sm font-bold">Note 1:</label>
+          <input type="text" id="note1"
+            class="w-full px-3 mt-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500">
+        </div>
+        <div class="mb-4">
+          <label for="note2" class="text-sm font-bold">Note 2:</label>
+          <input type="text" id="note2"
+            class="w-full px-3 mt-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500">
+        </div>
+        <div>
+          <label for="note3" class="text-sm font-bold">Note 3:</label>
+          <input type="text" id="note3"
+            class="w-full px-3 mt-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500">
+        </div>
+      </div>
+      <div>
+        <input type="text" value="text1"
+          class="w-full px-3 py-4 mt-4 text-white bg-blue-500 rounded-md hover:bg-blue-600 hover:shadow">
+        <input type="text" value="text2"
+          class="w-full px-3 py-4 mt-4 text-white bg-blue-500 rounded-md hover:bg-blue-600 hover:shadow">
+        <input type="text" value="text3"
+          class="w-full px-3 py-4 mt-4 text-white bg-blue-500 rounded-md hover:bg-blue-600 hover:shadow">
+        <input type="text" value="text4"
+          class="w-full px-3 py-4 mt-4 text-white bg-blue-500 rounded-md hover:bg-blue-600 hover:shadow">
+        <input type="text" value="text5"
+          class="w-full px-3 py-4 mt-4 text-white bg-blue-500 rounded-md hover:bg-blue-600 hover:shadow">
+        <input type="text" value="text6"
+          class="w-full px-3 py-4 mt-4 text-white bg-blue-500 rounded-md hover:bg-blue-600 hover:shadow">
+
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="bg-white sm:flex-1">
+      <!-- Calendar without dates in this columnn -->
+      <div class="p-4">
+        <!-- Month name -->
+        <h2 class="text-3xl font-semibold mb-4">[Month Name]</h2>
+
+        <!-- Calendar grid -->
+        <div class="grid grid-cols-7 gap-4">
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <div className="bg-gray-800 color-[#E7F1FF] pt-8">🔲</div> <!-- Empty cell -->
+          <!-- ... Continue with empty cells for the remaining days -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
